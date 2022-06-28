@@ -1,0 +1,494 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.background{
+    background-image: url('../images/slider-1-background-img-3.jpg');
+    height: 800px;
+    background-size: cover;
+}
+img{
+    padding-top: 10px
+}
+.navbar{
+    display: flex;
+}
+.navbara ul{
+    display: flex;
+    list-style: none;
+    padding-top: 25px;
+    color: rgb(1, 5, 63);
+}
+.navbara ul li a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbara ul li a:hover{
+    /*text-decoration: underline;*/
+    color: rgb(105, 10, 34);
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    font-size: 22px;
+}
+.icons ul li img:hover{
+    width: 30px;
+}
+.icons ul{
+    padding-top: 20px;
+    display: flex;
+    color: rgb(1, 5, 63);
+}
+.icons ul li{
+    padding-left: 30px;
+    list-style: none;
+}
+.icons ul li img{
+    width: 20px;
+}
+.icons ul li .sav{
+    width: 17px;
+}
+.top{    
+    padding-top: 240px;
+    padding-left: 30px;
+    text-align: center;
+}
+.top hr{
+    width: 100px;
+    margin: 20px auto;
+    border-color: brown;
+}
+
+.top h1{
+    font-weight: normal;
+    font-size: 54px;
+    color: rgb(61, 60, 60);
+}
+.top p{
+    margin: 20px 100px 40px 100px;
+    color: rgb(61, 60, 60);
+    font-size: 15px;
+}
+.take{
+    font-size: 10px;
+    margin: auto;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(168, 167, 167);
+    padding: 10px 40px;
+}
+.take:hover{
+    border-color: rgb(39, 39, 128);
+    background-color: rgb(39, 39, 128);
+}
+.background2{
+    height: 450px;
+    background-image: url('../images/h1-background-img-1.jpg');
+    background-size: cover; 
+    text-align: center;
+}
+.background2 h2{
+    padding-top: 80px;
+    font-weight: normal;
+}
+.background2 hr{
+    width: 50px;
+    margin: 10px 0;
+    margin-left: 650px;
+    border-color: brown;
+}
+.background2 p{
+    margin: 0 400px;
+    color: rgb(61, 60, 60);
+}
+.containera{
+    width: 1080px;
+    margin: 0 auto;
+}
+.left img{
+    width: 100px;
+    margin-top: 40px;
+
+}
+.left h3{
+    font-weight: normal;
+}
+.left p{
+    margin: 10px 0;
+    font-size: 12px;
+}
+.background3{
+    background-image: url('../images/h1-parallax-1.jpg');
+    background-size: cover;
+    height: 500px;
+}
+.containerc{
+    width: 980px;
+    margin: 0 auto;
+}
+.topleft .a1{
+    color: rgb(139, 138, 134);
+    padding-top: 80px;
+    text-align: right;
+    font-size: 14px;
+}
+.topleft .b1{
+    color: rgb(139, 138, 134);
+    padding-top: 50px;
+    text-align: right;
+    font-size: 14px;
+}
+.topleft .c1{
+    color: rgb(139, 138, 134);
+    padding-top: 50px;
+    text-align: right;
+    font-size: 14px;
+}
+.topleft img{
+    width: 200px;
+    padding-top: 150px;
+    margin-left: 70px;
+}
+.topleft .a2{
+    color: rgb(139, 138, 134);
+    padding-top: 80px;
+    text-align: left;
+    font-size: 14px;
+}
+.topleft .b2{
+    color: rgb(139, 138, 134);
+    padding-top: 50px;
+    text-align: left;
+    font-size: 14px;
+}
+.topleft .c2{
+    color: rgb(139, 138, 134);
+    padding-top: 50px;
+    text-align: left;
+    font-size: 14px;
+}
+.topleft h3{
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.background4{
+    background-image: url('../images/h1-background-img-2.jpg');
+    height: 350px;
+    background-size: cover;
+}
+.taste{
+    width: 660px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(61, 60, 60);;
+}
+.taste h2{
+    padding-top: 80px;
+    font-weight: normal;
+}
+.background4 hr{
+    width: 50px;
+    margin: 15px 0;
+    margin-left: 302px;
+}
+.taste p{
+    font-size: 14px;
+}
+.p p{
+    padding-top: 40px;
+    font-size: 18px;
+}
+.p span{
+    font-size: 14px;
+}
+.background5{
+    background-color: rgb(253, 251, 245);
+    color: rgb(61, 60, 60);
+}
+.flavorimg img{
+    width: 600px;
+    margin-top: 40px;
+}
+.flavor {
+    margin-top: 200px;
+    padding-right: 200px;
+}
+.flavor h2{
+    font-weight: normal;
+}
+hr{
+    width: 50px;
+    margin-left: 0;
+    margin: 10px 0;
+    border-color: brown;
+}
+.flavor p{
+    font-size: 14px;
+}
+.flavor .order{
+    font-size: 10px;
+    text-align: center;
+    margin: 15px 0;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(168, 167, 167);
+    padding: 10px 40px;
+} 
+.order:hover{
+    border-color: rgb(39, 39, 128);
+    background-color: rgb(39, 39, 128);
+}
+.specialimg img{
+    width: 674px;
+    height: 600px;
+    margin-top: 40px;
+}
+.special{
+    margin-top: 200px;
+    padding-left: 250px;
+}
+.special h2{
+    font-weight: normal;
+}
+hr{
+    width: 50px;
+    margin: 10px end;
+    border-color: brown;
+}
+.special p{
+    font-size: 14px;
+}
+.special .try{
+    font-size: 10px;
+    text-align: center;
+    margin: 15px 0;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(168, 167, 167);
+    padding: 10px 40px;
+} 
+.try:hover{
+    border-color: rgb(39, 39, 128);
+    background-color: rgb(39, 39, 128);
+}
+.background6{
+    color: rgb(61, 60, 60);
+}
+.background7{
+    background-image: url('/images/h1-parallax-1.jpg');
+    background-size: cover;
+    height: 600px;
+    color: rgb(139, 138, 134);
+}
+.containerd{
+    width: 1060px;
+    margin: 0 auto;
+}
+.rowa{
+    display: flex;
+}
+.menu{
+    text-align: center;
+    padding-top: 80px;
+}
+.menu hr{
+    margin: 10px auto;
+    border-color: brown;
+}
+.menu h2{
+    font-weight: normal;
+}
+.menu p{
+    padding: 0 380px;
+    padding-bottom: 60px;
+}
+.cake img{
+    width: 80px;
+    margin-right: 15px;
+}
+.cookie img{
+    width: 80px;
+}
+.menua{
+    margin: 25px 0;
+}
+.cookie img{
+    width: 80px;
+    margin-right: 15px;
+}
+.menua h3{
+    margin: 5px 0;
+    font-size: 15px;
+}
+.menua p{
+    font-size: 14px;
+}
+.Our{
+    text-align: center;
+    padding-top: 80px;
+}
+.Our hr{
+    margin: 10px auto;
+    border-color: brown;
+}
+.Our h2{
+    font-weight: normal;
+}
+.Our p{
+    padding: 0 380px;
+    padding-bottom: 60px;
+}
+.background8{
+    color: rgb(61, 60, 60);
+    padding-bottom: 80px;
+}
+.containere{
+    width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cook img{
+    width: 250px;
+}
+.cook h3{
+    font-weight: normal;
+    margin: 10px 0;
+}
+.cook .ch{
+    color: chocolate;
+}
+.cook p{
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.rowb{
+    display: flex;
+}
+.rowb a img{
+    width: 20px;
+}
+.rowb{
+    margin: 10px;
+    padding-left: 80px;
+}
+.img img{
+    width: 338px;
+    margin: 0;
+    padding: 0;
+}
+.background9{
+    margin-bottom: 100px;
+}
+.what img{
+    margin-top: 80px;
+}
+.we{
+    margin-top: 180px;
+    padding-right: 200px;
+}
+.we h2{
+    font-weight: normal;
+}
+.we hr{
+    width: 50px;
+    margin: 10px end;
+    border-color: brown;
+}
+.we p{
+    font-size: 14px;
+}
+.we img{
+    margin-top: 50px;
+}
+.background10{
+    background-color: black;
+    height: 400px;
+    color: rgb(139, 138, 134);
+}
+.containerf{
+    width: 1060px;
+    margin: 0 auto;
+}
+.containerf h3{
+    font-weight: normal;
+}
+.containerf p{
+    font-size: 14px;
+}
+.sweet{
+    width: 320px;
+    margin-top: 170px;
+}
+.border{
+    border-right: 1px solid brown;
+    margin-top: 50px;
+}
+.about{
+    width: 420px;
+    text-align: center;
+}
+.about img{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.about hr{
+    margin: 10px auto;
+}
+.about p{
+    padding: 0 40px;
+}
+.karta img{
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+.containerh{
+    height: 100px;
+    margin: 0 auto;
+}
+.rowc{
+    display: flex;
+}
+.background11{
+    background-color: rgb(46, 46, 46);
+}
+
+.iconsa{ 
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(156, 156, 78);
+    border-radius: 50%;
+}
+.iconsa a img{
+    width: 50px;
+    padding: 10px;
+}
+.finish img{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid chocolate;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: chocolate;
+}
+.iconsa{
+    display: flex;
+    margin-left: 20px;
+}
+.iconsa:nth-child(1){
+    margin-left: 35%;
+}
